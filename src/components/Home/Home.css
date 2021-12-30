@@ -105,3 +105,117 @@
     text-align: center;
     color: #02B875;
 }
+
+
+/* Media query */
+@media only screen and (max-width:688px) {
+    .banner {
+        background-image: url(../../images/mobile-banner.png);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 236px;
+        margin-bottom: 48px;
+    }
+
+    .banner-title {
+        color: white;
+        padding: 142px 16px 32px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+    }
+
+    .banner-title h1 {
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .banner-title p {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .post1 {
+        width: 100%;
+        height: 307px;
+        margin-top: 18px;
+        margin-left: 0px;
+        border: 1px solid #E0E0E0;
+        border-radius: 4px;
+    }
+
+    .post1 img {
+        width: 100%;
+        height: 120px;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .post1-title {
+        padding: 20px;
+    }
+
+    .post1-title h3 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .post1-title p {
+        color: #5C5C5C;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .menu-button {
+        border: none;
+        background-color: white;
+        width: 36px;
+        height: 32px;
+        border-radius: 4px;
+
+    }
+
+    .menu-button:focus {
+        background-color: #BFBFC0;
+    }
+
+    .share-button {
+        margin-left: 40px;
+        border: none;
+        background: #EDEEF0;
+        border-radius: 2px;
+        width: 42px;
+        height: 36px;
+    }
+
+    .visit-button {
+        width: 100%;
+        height: 38px;
+        background: #FFFFFF;
+        border: 0.7px solid #A9AEB8;
+        box-sizing: border-box;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        color: #E56135;
+    }
+
+    .apply-button {
+        width: 100%;
+        height: 36px;
+        background: #FFFFFF;
+        border: 0.7px solid #A9AEB8;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        color: #02B875;
+    }
+
+}
