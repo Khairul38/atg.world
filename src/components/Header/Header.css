@@ -1,0 +1,17 @@
+.search-field {
+    background: #F2F2F2;
+    border-radius: 21px;
+}
+
+.search-field img {
+    padding: 13px 20px;
+}
+
+.search-field input {
+    border: none;
+    outline: none;
+    width: 360px;
+    height: 42px;
+    background: #F2F2F2;
+    border-radius: 21px;
+}
