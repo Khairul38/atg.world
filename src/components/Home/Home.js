@@ -146,7 +146,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div style={{ marginBottom: '15px' }}>
-                                <span style={{ marginRight: '47px', fontWeight: 'bold', fontSize: '15px', lineHeight: '19px' }}>
+                                <span style={{ marginRight: '47px', fontWeight: '500', fontSize: '15px', lineHeight: '19px' }}>
                                     <i className="bi bi-briefcase"></i> Innovaccer Analytics Private Ltd.
                                 </span>
                                 <span style={{ fontWeight: '500', fontSize: '15px', lineHeight: '19px' }}>
